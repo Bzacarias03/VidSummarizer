@@ -1,0 +1,34 @@
+name: vidsummarizer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dropdown_button2: ^2.3.9
+  email_validator: ^3.0.0
+  flutter_dotenv: ^5.2.1
+  supabase_flutter: ^2.9.0
+  youtube_explode_dart: ^2.4.1
+  dart_openai: ^5.1.0
+  intl: ^0.20.2
+  http: ^1.4.0
+  uuid: ^4.5.1
+  path_provider: ^2.1.1
+  xml: ^6.5.0
+  html: ^0.15.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets: 
+   - .env
+  
+  uses-material-design: true

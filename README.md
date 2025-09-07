@@ -1,1 +1,3 @@
-# VidSummarizer
+# vidsummarizer
+
+A new Flutter project.
